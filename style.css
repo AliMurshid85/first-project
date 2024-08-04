@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+   padding: 0;  
+   unicode-bidi: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  .header{
+
+    padding: 10px 4%;
+  display: flex;
+  justify-content:space-between;
+  padding: 1px 4%;
+  align-items:center;
+  background-color: #fff;
+  }
+  .logo{
+    margin-top: 2%;
+   display: flex;
+  text-align: center; 
+  }
+  .logo a{
+    font-size:29px;
+  }
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  align-items: center;
+  color:wheat;
+}
+
+.large-picture{
+  width: 100%;
+  height: 93%;
+      }
+ 
+
+  .container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 106vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .text-overlay{
+    position: absolute;
+    top: 42%; 
+    left: 14%; 
+    transform: translate(-0%);
+    color: white; 
+    font-size: 41px; 
+    font-weight: bold; 
+    text-align: left; 
+    text-shadow: 2px 2px 4px rgba(0,0, 0, 0.5);
+}
+
+  .nav a{
+    gap: 90px;
+  color: black;
+  border: none;
+
+
+  cursor:pointer;
+  }
+.h1{
+   
+  text-align: center;
+  height: 59vh;
+  font-size: 29%;
+}
+.i{
+  display: flex;
+  gap: 40px;
+  font-size: 25px;
+  justify-content: center;
+}
+.but{
+  border: none;
+  background-color: gray;
+  padding: 15px 32px;
+  text-align:center;
+  display:inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor:pointer;
+}
+.box{
+  text-align: center;
+  display:inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 4% 30%;
+}
+
+.card {
+  display:inline-block;
+  text-align: center;
+  width: 390px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box{
+  text-align: center;
+  display:inline-block;
+  font-size: 20px;
+  margin: 10% 30%;
+}
+.card1{
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  height: 46%;
+  margin-left: 5%;
+  border: 1px solid white;
+  overflow: hidden;
+}
+.date{
+  background-color: #ddd;
+  width: 1582px;
+  height: 39vh;
+  text-align: center;
+
+}
+.hhh{
+  background-color: #ddd;
+
+display: flex;
+
+
+}
+.context{
+  margin: 100px;
+  text-align: left;
+  
+
+
+}
+.context1{
+  margin: 100px;
+  text-align: left;
+  
+
+
+}
+.huge{
+font-size: 100px;
+
+
+}
+.nav a{
+  gap: 90px;
+color: black;
+  text-decoration: none ;
+  
+} 
+.hree{
+font-size: 20px;
+}
+.gaga{
+background-color: #fff;
+display: flex;
+display: inline-block ;
+justify-content: center;
+margin-left: 400px;
+}
+.dged{
+display: flex;
+  margin-top: 190px;
+  margin-left: 60px;
+  text-align: right;
+  width: 1100px;
+  height: 100%;
+}
+.gege{ 
+  display: flex;
+  text-align: right;
+}
+.icon{
+ background-color: #fff;
+ text-align: center;
+}
+.later{  
+  background-color: rgb(19, 18, 18);
+color: rgb(70, 68, 68);
+text-align: center;
+}
+.sss{
+  background-color: rgb(19, 18, 18);
+  text-align: center;
+color: #fff;
+text-decoration: none;
+}
+.qqq{
+  font-size: 90px 900px;
+background-color: rgb(19, 18, 18);
+color: #fff;
+ text-align: center;
+}
+.box1{
+color: #fff;
+width: 20px;
+height: 90px;
+}
+.e{
+  outline:rgba(0, 0, 0, 0.1);
+  background-color: rgb(19, 18, 18);
+  padding: 15px 32px;
+  text-align:center;
+  display:inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  border: 2PX solid bisque;
+  color: #ddd;
+
+}
+.ee{
+  outline:rgba(0, 0, 0, 0.1);
+
+  padding: 15px 32px;
+  text-align: left;
+  display:inline-block;
+  width: 600px;
+  height: 2%;
+  margin: 4px 2px;
+  border: 2PX solid bisque;
+  color: gray;
+
+}
+footer {
+  unicode-bidi: isolate;
+  padding: 120px 0;
+  padding-bottom: 50px;
+  background: #171e27;
+  position: relative;
+  display: flex;
+}
+
+
+
+
+.aaa{
+  margin-right: 90px;
+ padding: 59px;
+ gap: 30px;
+ color: gray;
+ 
+}
+.ddd{
+  padding: 59px;
+  gap: 30px;
+color: gray;
+margin-right: 100px;
+margin-left: 90px;
+
+}
+
+.ccc{
+  padding: 59px;
+  gap: 30px;
+color: gray;
+margin-right: 90px;
+
+}
+.bbb{
+  unicode-bidi: none;
+  padding: 59px;
+  border-bottom-right-radius: 300%;
+color: gray;
+margin-right: 90px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
